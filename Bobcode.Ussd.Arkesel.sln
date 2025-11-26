@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bobcode.Ussd.Arkesel", "Bob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bobcode.Ussd.Arkesel.Tests", "Bobcode.Ussd.Arkesel.Tests\Bobcode.Ussd.Arkesel.Tests.csproj", "{5303B13F-6E53-4D53-A998-A42E7C9ABD99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bobcode.Ussd.Arkesel.Sample", "sample\Bobcode.Ussd.Arkesel.Sample.csproj", "{6354B79D-CAB2-4A08-A1D0-8516881452EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bobcode.Ussd.Arkesel.Sample", "Bobcode.Ussd.Arkesel.Sample\Bobcode.Ussd.Arkesel.Sample.csproj", "{60B485E7-989B-45F7-A95E-B3D2612FEEA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +20,9 @@ Global
 		{5303B13F-6E53-4D53-A998-A42E7C9ABD99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5303B13F-6E53-4D53-A998-A42E7C9ABD99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5303B13F-6E53-4D53-A998-A42E7C9ABD99}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6354B79D-CAB2-4A08-A1D0-8516881452EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6354B79D-CAB2-4A08-A1D0-8516881452EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6354B79D-CAB2-4A08-A1D0-8516881452EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6354B79D-CAB2-4A08-A1D0-8516881452EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B485E7-989B-45F7-A95E-B3D2612FEEA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B485E7-989B-45F7-A95E-B3D2612FEEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B485E7-989B-45F7-A95E-B3D2612FEEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B485E7-989B-45F7-A95E-B3D2612FEEA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
