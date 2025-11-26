@@ -50,12 +50,12 @@ var menu = new UssdMenuBuilder<BankMenuNode>("bank")
     .Root(BankMenuNode.Main)
 
     .Page(BankMenuNode.Main, n => n
-        .Message("Welcome to Demo Bank")
+        .Title("Welcome to Demo Bank")
         .Option("1", "Check Balance").Action<BalanceCheckHandler>()
         .Option("2", "Transfer Money").GoTo(BankMenuNode.TransferRecipient)
     )
 
-    .Page(BankMenuNode.TransferRecipient, n => n
+    .Title(BankMenuNode.TransferRecipient, n => n
         .Message("Enter recipient phone number:")
         .Input().Action<TransferRecipientHandler>()
     )
@@ -168,8 +168,8 @@ var recipient = Get(context, SessionKeys.Recipient);
 Automatically paginate long lists:
 
 ```csharp
-.Node(BankMenuNode.Products, n => n
-    .Message("Our Products:")
+.Page(BankMenuNode.Products, n => n
+    .Title("Our Products:")
     .OptionList(products,
         p => $"{p.Name} - GHS {p.Price}",
         autoPaginate: true,
