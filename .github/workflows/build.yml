@@ -1,4 +1,4 @@
-name: Build, Test, and Release OpenUSSD SDK
+name: Build, Test, and Release Bobcode.Ussd.Arkesel SDK
 
 on:
   push:
@@ -58,7 +58,7 @@ jobs:
         run: dotnet restore OpenUSSD.sln
 
       - name: Build
-        run: dotnet build ./OpenUSSD/OpenUSSD.csproj --no-restore --configuration Release
+        run: dotnet build ./Bobcode.Ussd.Arkesel/Bobcode.Ussd.Arkesel.csproj --no-restore --configuration Release
 
       - name: Pack NuGet package
         run: dotnet pack ./Bobcode.Ussd.Arkesel/Bobcode.Ussd.Arkesel.csproj --no-build --configuration Release --output ./artifacts
