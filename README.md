@@ -1,5 +1,6 @@
 # OpenUSSD
 
+### Nugget Package : https://www.nuget.org/packages/OpenUSSD/
 A modern, strongly-typed .NET SDK for building USSD (Unstructured Supplementary Service Data) applications with ASP.NET Core.
 
 ## Overview
